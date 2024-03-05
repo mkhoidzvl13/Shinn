@@ -6659,7 +6659,7 @@ spawn(function()
     end)
 end)
 
-local ToggleFastAttack = Tabs.Player:AddToggle("ToggleFastAttack", {Title = " Click Attack Player",Description = "Đánh Người Chơi", Default = false })
+local ToggleFastAttack = Tabs.race:AddToggle("ToggleFastAttack", {Title = " Click Attack Player",Description = "Đánh Người Chơi", Default = false })
 
 ToggleFastAttack:OnChanged(function(Value)
  _G.FastAttackFaiFao = Value
