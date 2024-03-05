@@ -8,8 +8,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Grayx hub",
-    SubTitle = "Developer: Memories",
+    Title = "Shin hub",
+    SubTitle = "Developer: Grayx",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true,
@@ -22,7 +22,7 @@ local Tabs = {
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
     Player = Window:AddTab({ Title = "Player", Icon = "box" }),
     Teleport = Window:AddTab({ Title = "Island", Icon = "palmtree" }),
-    SeaETab = Window:AddTab({ Title = "Sea Event", Icon = "" }),
+    SeaETab = Window:AddTab({ Title = "Sea Event", Icon = "anchor" }),
     Fruit = Window:AddTab({ Title = "Fruit", Icon = "cherry" }),
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
     Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
@@ -6906,10 +6906,10 @@ Tabs.Shop:AddButton({
 --misc
 Tabs.Misc:AddButton({
 	Title = "click để lấy link fb",
-	Description = "facebook chính thức của admin hub",
+	Description = "Discord chính thức của admin hub",
 	Callback = function()
- setclipboard("https://www.facebook.com/61551675837476")
-  DiscordLib:Notification("Đã Sao Chép Link Facebook" , 10 ,11816162894 )
+ setclipboard("https://discord.gg/QXUsJnZDBN")
+  DiscordLib:Notification("Đã Sao Chép Link Discord" , 10 ,11816162894 )
 	end
 
 })
@@ -7439,8 +7439,8 @@ InterfaceManager:SetFolder("ZedrScriptHub")
 SaveManager:SetFolder("ZedrScriptHub/specific-game")
 Window:SelectTab(1)
 Fluent:Notify({
-    Title = "developer moi bi ny ctay",
-    Content = "script được tạo bởi Nguyễn Minh Khôi.",
+    Title = "Shin Hub",
+    Content = "script được tạo bởi Grayx.",
     Duration = 8
 })
 SaveManager:LoadAutoloadConfig()
