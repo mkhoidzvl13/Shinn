@@ -6659,7 +6659,7 @@ spawn(function()
     end)
 end)
 
-local ToggleFastAttack = Tabs.race:AddToggle("ToggleFastAttack", {Title = " Click Attack Player",Description = "Đánh Người Chơi", Default = false })
+local ToggleFastAttack = Tabs.Race:AddToggle("ToggleFastAttack", {Title = " Click Attack Player",Description = "Đánh Người Chơi", Default = false })
 
 ToggleFastAttack:OnChanged(function(Value)
  _G.FastAttackFaiFao = Value
@@ -6668,7 +6668,7 @@ Options.ToggleFastAttack:SetValue(false)
 
 
 
-local SliderDelayAttackPlayer = Tabs.Player:AddSlider("SliderDelayAttackPlayer", {
+local SliderDelayAttackPlayer = Tabs.Race:AddSlider("SliderDelayAttackPlayer", {
     Title = "Delay Fast (sec)",
     Description = "Tốc độ Đánh (giây)",
     Default = 0.1,
