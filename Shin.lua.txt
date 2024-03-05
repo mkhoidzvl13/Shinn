@@ -12,8 +12,8 @@ local Window = Fluent:CreateWindow({
     SubTitle = "Developer: Grayx",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
-    Acrylic = true,
-    Theme = "Aqua",
+    Acrylic = false,
+    Theme = "Light",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
