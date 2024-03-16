@@ -1,6 +1,1 @@
---Webhook script:
-local rq = {
-  url = "https://pastebin.com/WHr6EaMn",
-  method = "GET"
-}
-statuscode, content = app.httprequest(rq)
+\cc
