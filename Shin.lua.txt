@@ -1931,7 +1931,7 @@ Tabs.Main:AddButton({
 
     
     Tabs.Main:AddButton({
-        Title = "Banana Fps Booster",
+        Title = " Fps Booster",
         Description = "",
         Callback = function()
             FPSBooster()
