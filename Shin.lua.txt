@@ -1548,7 +1548,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=17279267488"
+ImageButton.Image = "http://www.roblox.com/asset/?id=3398620867"
 ImageButton.MouseButton1Down:connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
 end)
@@ -1569,7 +1569,7 @@ end
 
 Tabs.profile:AddParagraph({
         Title = "Owner",
-        Content = "By Nguyen Vu Duy"
+        Content = "By GRAYX"
     })
 
 Tabs.profile:AddParagraph({
@@ -1578,13 +1578,13 @@ Tabs.profile:AddParagraph({
     })
     
  Tabs.profile:AddParagraph({
-        Title = "Banana Hub Free!",
+        Title = "GRAYX",
         Content = "VN"
     })   
   
 Tabs.profile:AddParagraph({
         Title = "Link Discord Tôi",
-        Content = "https://discord.com/invite/hjZa2MW5"
+        Content = "https://discord.gg/ST2UUPvu"
     })
                      
 local Status = Tabs.Main:AddParagraph({
@@ -6847,7 +6847,7 @@ end
 
 Fluent:Notify({
     Title = "Gay Hub",
-    Content = "@"..game.Players.LocalPlayer.Name.."https://discord.com/invite/2A3AYfh9",
+    Content = "@"..game.Players.LocalPlayer.Name.."https://discord.gg/ST2UUPvu",
     Duration = 8
 })
 
