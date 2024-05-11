@@ -24,8 +24,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/a
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/Interface.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = SpeedHubX:CreateWindow({
-    Title = "Gay Hub",
-    SubTitle = "| By Nguyen Minh Khui",
+    Title = "ME NOOB Hub",
+    SubTitle = "| By _nguyenminhkhoi. , shin21032009",
     TabWidth = 160,
     Size = UDim2.fromOffset(500, 320),
     Acrylic = true,
@@ -33,20 +33,20 @@ local Window = SpeedHubX:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    profile = Window:AddTab({ Title = "Tab Info", Icon = "" }),
-    Main = Window:AddTab({ Title = "Tab Farm", Icon = "" }),
-    Sea = Window:AddTab({ Title = "Tab Sea Event", Icon = "" }),
-    ITM = Window:AddTab({ Title = "Tab Items", Icon = "" }),
-    Setting = Window:AddTab({ Title = "Tab Setting", Icon = "" }),
+    profile = Window:AddTab({ Title = "Tab Info", Icon = "user" }),
+    Main = Window:AddTab({ Title = "Tab Farm", Icon = "home" }),
+    Sea = Window:AddTab({ Title = "Tab Sea Event", Icon = "anchor" }),
+    ITM = Window:AddTab({ Title = "Tab Items", Icon = "barcode" }),
+    Setting = Window:AddTab({ Title = "Tab Setting", Icon = "settings" }),
     Status = Window:AddTab({ Title = "Tab Sever Status", Icon = "" }),
-    Stats = Window:AddTab({ Title = "Tab Stats", Icon = "" }),
-    Player = Window:AddTab({ Title = "Tab PvP", Icon = "" }),
-    Teleport = Window:AddTab({ Title = "Tab Teleport", Icon = "" }),
-    Fruit = Window:AddTab({ Title = "Tab Blox Fruits", Icon = "" }),
-    Raid = Window:AddTab({ Title = "Tab Raid", Icon = "" }),
-    Race = Window:AddTab({ Title = "Tab Race", Icon = "" }),
-    Shop = Window:AddTab({ Title = "Tab Shop", Icon = "" }),
-	Misc = Window:AddTab({ Title = "Tab Misc", Icon = "" }),
+    Stats = Window:AddTab({ Title = "Tab Stats", Icon = "plus-circle" }),
+    Player = Window:AddTab({ Title = "Tab PvP", Icon = "box" }),
+    Teleport = Window:AddTab({ Title = "Tab Teleport", Icon = "palmtree" }),
+    Fruit = Window:AddTab({ Title = "Tab Blox Fruits", Icon = "cherry" }),
+    Raid = Window:AddTab({ Title = "Tab Raid", Icon = "swords" }),
+    Race = Window:AddTab({ Title = "Tab Race", Icon = "chevrons-right" }),
+    Shop = Window:AddTab({ Title = "Tab Shop", Icon = "shopping-cart" }),
+	Misc = Window:AddTab({ Title = "Tab Misc", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
 do
@@ -1931,7 +1931,7 @@ Tabs.Main:AddButton({
 
     
     Tabs.Main:AddButton({
-        Title = " Fps Booster",
+        Title = "Banana Fps Booster",
         Description = "",
         Callback = function()
             FPSBooster()
@@ -6846,10 +6846,9 @@ end
 
 
 Fluent:Notify({
-    Title = "Gay Hub",
-    Content = "@"..game.Players.LocalPlayer.Name.."  https://discord.gg/ST2UUPvu",
+    Title = "Me Noob Hub",
+    Content = "@"..game.Players.LocalPlayer.Name.." https://discord.gg/ST2UUPvu",
     Duration = 8
 })
-
 
 
